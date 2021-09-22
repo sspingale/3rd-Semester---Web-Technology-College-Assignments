@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Descendant Selector</title>
+</head>
+<link rel="shortcut icon" href="https://thumbs.dreamstime.com/b/fire-letter-s-burning-flame-light-d-rendering-fire-letter-s-burning-flame-light-d-rendering-isolated-black-background-100531023.jpg" type="image/x-icon">
+<style>
+    body{
+        font-family: monospace;
+        overflow-x: hidden;
+        background: url("https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2F3.bp.blogspot.com%2F-t-aHs-_Uuvs%2FTt4jFAczH_I%2FAAAAAAAACE8%2Flmo6H5ZT3v8%2Fs1600%2FHDHuT.BlogSpot.com%2B%25252812%252529.jpg&f=1&nofb=1");
+        background-repeat: no-repeat;
+        background-size: cover;
+        color: rgb(34, 3, 75);
+    }
+    article{
+        z-index: 2;
+        height: auto;
+        width: 30vw;
+        position: absolute;
+        right: 1rem;
+        font-size: 25px;
+        margin-top: -10px;
+        margin-right: 50px;
+
+    }
+    ol>li{
+        text-transform: capitalize;
+        margin: 10px 0;
+        font-weight: bold;
+    }
+    h1{
+        font-size: 50px;
+        letter-spacing: 1px;
+        animation: big 1.5s   infinite ease ;
+    }
+    @keyframes big {
+        0%{
+            transform: scale(1) translateX(10vw);
+
+        }
+        50%{
+            transform: scale(1.2) translateX(-22vw);
+
+        }
+        100%{
+            transform: scale(1) translateX(10vw);
+        }
+    }
+
+</style>
+<body>
+    <article>
+        <ol>
+            <li>Mahendra Singh Dhoni</li>
+            <li>Sachin Tendulkar</li>
+            <li>Hardik Pandya</li>
+            <li>Kieron Pollard</li>
+            <li>Chris Gayle</li>
+            <li>Rohit Sharma</li>
+            <li>Joe Root</li>
+            <li>Aaron Finch</li>
+            <li>Rishabh Pant</li>
+            <li>Malinga</li>
+        </ol>
+        
+        <h1 style="color: rgb(150, 150, 250);">Cricketers</h1>
+    </article>
+</body>
+</html>

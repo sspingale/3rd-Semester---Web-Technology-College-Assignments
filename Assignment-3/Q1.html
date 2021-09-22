@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Element Selector</title>
+</head>
+<link rel="shortcut icon" href="https://thumbs.dreamstime.com/b/fire-letter-s-burning-flame-light-d-rendering-fire-letter-s-burning-flame-light-d-rendering-isolated-black-background-100531023.jpg" type="image/x-icon">
+<style>
+    .box{
+        text-align: center; 
+        padding: 10px;
+        width: 50vw;
+        margin: auto;
+        transform: scale(1.5);
+        border-radius: 20px;
+        background: #ee9ca7;
+        background: -webkit-linear-gradient(to right, #ffdde1, #ee9ca7);
+        background: linear-gradient(to right, #ffdde1, #ee9ca7);
+    }
+    body{
+        background-color: whitesmoke;
+        overflow: hidden;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        min-height: 100vh;
+    }
+    h1{
+        color: rgb(6, 6, 241);
+    }
+    h2{
+        color: rgb(170, 79, 223);
+    }
+    h3{
+        color: rebeccapurple;
+        font-weight: bolder;
+    }
+    h4{
+        color: rgb(233, 130, 83);
+    }
+    h5{
+        color: rgb(236, 68, 82);
+    }
+    h6{
+        color: rgba(0, 0, 0, 0.8);
+    }
+    
+</style>
+<body>
+    <div class="box">
+        <h1>Name - Sumit Pingale</h1>
+        <h2>Branch - Computer Science and Engineering</h2>
+        <h3>Roll Number - 2006072</h3>
+        <h4>Subject - Web Technology</h4>
+        <h5>Subject Code - CS3403</h5>
+        <h6 id="date">Date - 21/09/2021</h6>
+    </div>
+</body>
+<script>
+    let date = document.getElementById("date")
+    let d = new  Date();
+    date.innerHTML = "Date : " + d.toDateString();
+</script>
+</html>
