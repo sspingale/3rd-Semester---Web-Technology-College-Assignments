@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Box model</title>
+    <link rel="shortcut icon" href="S images.png" type="image/x-icon">
+</head>
+<style>
+    *{
+        padding: 5px;
+        margin: 10px;
+    }
+    .all{
+        background-color: mediumseagreen;
+        color: mintcream;
+        border: 2px solid rgb(42, 54, 26);
+    }
+    .container{
+        background-color: white;
+        text-align: center;
+        border: 2px solid black;
+    }
+    .content{
+        position: relative;
+        background-color: whitesmoke;
+        border: 40px solid whitesmoke;
+    }
+    .border{
+        position: relative;
+        border: 40px solid rgb(212, 107, 238);
+    }
+    .margin{
+        position: relative;
+        border: 40px solid rgb(255, 251, 9);
+    }
+    .padding{
+        position: relative;
+        border: 40px solid rgb(114, 137, 243);
+    }
+    .margin::before{
+        content: "Margin";
+        font-weight: bold;
+        font-size: x-large;
+        position: absolute;
+        z-index: 2;
+        transform: translateY(-40px) translateX(-20px);
+        color: black;
+    }
+    .content::before{
+        content: "Content";
+        font-weight: bolder;
+        font-size: x-large;
+        position: absolute;
+        z-index: 2;
+        transform: translateY(-15px) translateX(-20px);
+        color: black;
+    }
+    .padding::before{
+        content: "Padding";
+        font-weight: bold;
+        font-size: x-large;
+        position: absolute;
+        z-index: 2;
+        transform: translateY(-40px) translateX(-20px);
+        color: black;
+    }
+    .border::before{
+        content: "Border";
+        font-weight: bold;
+        font-size: x-large;
+        position: absolute;
+        z-index: 2;
+        transform: translateY(-40px) translateX(-20px);
+        color: black;
+    }
+    h1{
+        text-align: center;
+        color: mintcream;
+        padding: 10px;
+    }
+</style>
+<body>
+    <div class="all">
+        <h1>CSS Box model</h1>
+
+        <p>CSS box model is a container which contains multiple properties including borders, margin, padding and the content itself. It is used to create the design and layout of web pages. It can be used as a toolkit for customizing the layout of different elements. The web browser renders every element as a rectangular box according to the CSS box model.</p>
+
+        <p>The diagram given below explains about the box model clearly.</p>
+
+        <div class="container">
+            <div class="margin">
+                <div class="border">
+                    <div class="padding">
+                        <div class="content"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <p>Box-Model has multiple properties in CSS. Some of them are given below:</p>
+
+        <ul>
+            <li>borders</li>
+            <li>padding</li>
+            <li>content</li>
+            <li>margin</li>
+        </ul>
+    </div>
+</body>
+</html>
