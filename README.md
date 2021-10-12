@@ -28,3 +28,17 @@ It consists of My Profile page using HTML and CSS only.
 
 2. It consists of a flex model with some images in it
   [View](https://sspingale.github.io/3rd-Semester---Web-Technology-College-Assignments/Assignment-4/Flexbox.html)
+
+### Frameset
+  The frameset consists of different kinds of frames in it.
+1. Frameset - 1
+  [View](https://sspingale.github.io/3rd-Semester---Web-Technology-College-Assignments/frameset/frameset1.html)
+
+2. Frameset - 2
+  [View](https://sspingale.github.io/3rd-Semester---Web-Technology-College-Assignments/frameset/frameset2.html) 
+
+3. Frameset - 3
+  [View](https://sspingale.github.io/3rd-Semester---Web-Technology-College-Assignments/frameset/frameset3.html)
+
+4. Frameset - 4
+  [View](https://sspingale.github.io/3rd-Semester---Web-Technology-College-Assignments/frameset/frameset4.html)
