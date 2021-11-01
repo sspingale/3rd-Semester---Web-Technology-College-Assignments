@@ -42,3 +42,14 @@ It consists of My Profile page using HTML and CSS only.
 
 4. Frameset - 4
   [View](https://sspingale.github.io/3rd-Semester---Web-Technology-College-Assignments/frameset/frameset4.html)
+
+### JS Assignment
+The JS Assignment consists of different ways to connecting JS file with HTML file.
+1. Connecting JS file with HTML file
+  [View]()
+
+2. Scope of variable in JS file with HTML file
+  [View]()
+
+3. Difference between Undefined and not defined variables in JS file using HTML file
+  [View]()
