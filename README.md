@@ -45,7 +45,7 @@ It consists of My Profile page using HTML and CSS only.
 
 ### JS Assignment
 The JS Assignment consists of different ways to connecting JS file with HTML file.
-1. Connecting JS file with HTML file
+1. Connecting JS with HTML
   [View]()
 
 2. Scope of variable in JS file with HTML file
