@@ -52,4 +52,4 @@ The JS Assignment consists of different ways to connecting JS file with HTML fil
   [View](https://sspingale.github.io/3rd-Semester---Web-Technology-College-Assignments/JS%20Assignment/Javascript%20Scope/Javascript%20scope.html)
 
 3. Difference between Undefined and not defined variables in JS file using HTML file
-  [View]()
+  [View](https://sspingale.github.io/3rd-Semester---Web-Technology-College-Assignments/JS%20Assignment/Undefined%20and%20not%20defined%20diff/Undefined%20and%20not%20defined%20Difference.html)
