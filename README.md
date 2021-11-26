@@ -53,3 +53,8 @@ The JS Assignment consists of different ways to connecting JS file with HTML fil
 
 3. Difference between Undefined and not defined variables in JS file using HTML file
   [View](https://sspingale.github.io/3rd-Semester---Web-Technology-College-Assignments/JS%20Assignment/Undefined%20and%20not%20defined%20diff/Undefined%20and%20not%20defined%20Difference.html)
+
+
+### JS Assignment - 2
+The JS Assignment -2 consits of Creating a Object in Javascript and printing the values present in it on the window screen
+[View](https://sspingale.github.io/3rd-Semester---Web-Technology-College-Assignments/JS%20Assignment%20-%202/Object.html)
