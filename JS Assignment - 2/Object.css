@@ -1,0 +1,24 @@
+body{
+    text-align: center;
+    background-color: limegreen;
+    color: white;
+    font-weight: bolder;
+    font-family: cursive;
+}
+h1{
+    font-size: 50px;
+}
+h1::first-letter{
+    font-size: 70px;
+}
+#all{
+    font-size: 35px;
+    padding: 5px;
+    text-transform: capitalize;
+}
+p{
+    font-size: 30px;
+}
+p::first-letter{
+    font-size: 40px;
+}
